@@ -1,0 +1,51 @@
+{
+  "name": "gulp-html-to-data-uri",
+  "version": "0.0.1",
+  "description": "Convert a HTML document into it's cross browser data URI equivalent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roscorcoran/gulp-html-to-data-uri.git"
+  },
+  "author": "Ros Corcoran <roscorcoran@gmail.com> (http://roscorcoran.com)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "html",
+    "uri",
+    "dataURI",
+    "gulp",
+    "html-to-data"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "gulp-util": "^3.0.0",
+    "object-assign": "^2.0.0",
+    "stringify-object": "^1.0.0",
+    "through2": "^0.6.1",
+    "tildify": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-debug": "^2.0.1",
+    "gulp-minify-html": "^1.0.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "homepage": "https://github.com/roscorcoran/gulp-html-to-data-uri",
+  "maintainers": [
+    "Ros <roscorcoran@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/roscorcoran/gulp-html-to-data-uri/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
