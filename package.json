@@ -22,19 +22,14 @@
     "gulp",
     "html-to-data"
   ],
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^1.0.0",
     "gulp-util": "^3.0.0",
-    "object-assign": "^2.0.0",
-    "stringify-object": "^1.0.0",
     "through2": "^0.6.1",
-    "tildify": "^1.0.0"
-  },
-  "devDependencies": {
+    "event-stream": "^3.3.1",
     "gulp": "^3.8.10",
     "gulp-debug": "^2.0.1",
-    "gulp-minify-html": "^1.0.3",
-    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
     "gulp-webserver": "^0.9.1"
   },
   "homepage": "https://github.com/roscorcoran/gulp-html-to-data-uri",

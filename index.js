@@ -7,7 +7,9 @@ module.exports = function (opts) {
   var count = 0;
 	return through.obj(function (file, enc, cb) {
 		gutil.log('The data URI:')
-    gutil.log(chalk.green('data:text/html,' + encodeURIComponent(file.contents.toString())));
+		var dataUri = 'data: text/html, ' + encodeURIComponent(file.contents.toString());
+    gutil.log(chalk.green(dataUri));
+		file.contents = new Buffer(dataUri);
     count++;
 		cb(null, file);
 	}, function (cb) {
