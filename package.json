@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-to-data-uri",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert a HTML document into it's cross browser data URI equivalent",
   "license": "MIT",
   "repository": {
